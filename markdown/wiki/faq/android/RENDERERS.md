@@ -22,6 +22,13 @@ As of Galdiolus release, ANGLE renderer has been removed/replaced with LTW, We h
 ### A screenshot of ANGLE running Minecraft 1.21.1
 ![angle](https://raw.githubusercontent.com/whal-whales/random-imgs-repo-for-stuff/refs/heads/main/Screenshot_20240922_124430_PojavLauncher%20(Minecraft%20Java%20Edition%20for%20Android).jpg)
 
+## MobileGlues
+- Fast, slightly slower than Holy GL4ES.
+- Supports OpenGL 3.0 and above, only works on 1.17+.
+- Is compatible with most mods and shaders (depends on device see the [shader support matrix](https://github.com/MobileGL-Dev/MobileGlues-release/blob/main/ShaderSupportMatrix.md) & [mod support matrix](https://github.com/MobileGL-Dev/MobileGlues-release/blob/main/ModSupportMatrix.md) for more detailed information)
+- Has more renderer-specific settings
+
+
 ## Zink
 - Mid. It's only useful for mods that don't run due to missing OpenGL extensions and for running shaders.
 - Supports OpenGL 4.5 on Adreno GPUs with Turnip, and OpenGL 3.1/3.2(*) on Mali GPUs. Adreno GPUs without Turnip
